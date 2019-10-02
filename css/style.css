@@ -1,0 +1,55 @@
+/* Portfolio Website internetstandaarden Tessa Schijff | Versie 1.0 - 02-Oktober-2019 */
+
+/* -------Navigatie------- */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 102, 1);
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: rgba(0, 161,154,1);
+}
+
+/*-------Body algemeen-------*/
+body {
+  background: rgba(230, 230, 230, 1);
+  font-family: 'roboto', sans-serif;
+}
+article {
+  background-color: #FFFFFF;
+  max-width: 80%
+}
+
+h1 {
+    color: rgba(0, 161,154,1);
+    font-size: 18pt;
+}
+
+h2 {
+  color: rgba(0, 161,154,1);
+  font-size: 14pt;
+}
+
+p {
+  color: black;
+  font-size: 11pt;
+}
+
+strong {
+  font-weight: normal;
+}
