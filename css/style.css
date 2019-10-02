@@ -32,7 +32,22 @@ body {
 }
 article {
   background-color: #FFFFFF;
-  max-width: 80%
+  max-width: 80%;
+  padding: 1em 2em;
+  margin: 1em;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: left;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
 }
 
 h1 {
