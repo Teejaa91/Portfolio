@@ -126,12 +126,6 @@ img .ditjesdatjes {
   max-height: 100%
 }
 
-.introvansub {
-  background-color: rgba(225, 170, 35, 0.8);
-  max-width: 25%;
-  padding: 2em 4em;
-  margin: 1em;
-}
 
 /* ---------- PORTFOLIO ---------- */
 figure {
@@ -153,6 +147,17 @@ figure:hover {
 
 figcaption {
   display: bottom;
+}
+
+.introvansub {
+  /*background-color: rgba(225, 170, 35, 0.8);*/
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(225, 170, 35, 0.8));
+  max-width: 25%;
+  padding: 2em 4em;
+  margin: 1em;
+  border: 0.2em;
+  border-color: rgba(0, 161,154,1);
+  border-style: dashed;
 }
 
 .imageincard {
@@ -190,7 +195,8 @@ section > ul li::before {
   width: 1.1em;
   margin-left: -1.1em;
 }
-/* --media query-- als het scherm/ klein(er) is gebeurt er... */
+
+/* --media query-- als het scherm smaller/klein(er) is gebeurt er... */
 @media screen and (max-width: 800px) {
   .ingredienten-bereiden {
     max-width: 100%;
@@ -200,5 +206,9 @@ section > ul li::before {
   }
   .imageinarticle {
     border-radius: 0px;
+  }
+  .introvansub {
+    padding: 0.8em;
+    min-width: 15em;
   }
 }
