@@ -26,28 +26,26 @@
 
     <main>
       <!-- ******* Inhoud ******* -->
-      <h1>ABOUS</h1>
-      <article>
-        <h2>contact</h2>
-        <form action="mailto:tessa@schijff.nl" method="post" enctype="text/plain">
-          Naam:<input type="text" name="name" />
-          Email:<input type="email" name="email" />
-          Bericht:<textarea rows="10" cols="30" name="message"></textarea>
-          <input type="submit" value="Send" id="verstuur" />
-      </article>
-      <!--Tesu 1
-      <form action="mailto:tessa@schijff.nl" method="post" enctype="text/plain">
-        Naam:<input type="text" name="name" />
-        Email:<input type="email" name="email" />
-        Bericht:<textarea rows="10" cols="30" name="message"></textarea>
-        <input type="submit" value="Send" id="verstuur" />
-
-        reden van deze mail
-        1. ik heb de hulp van supertessa nodig
-        2. ik houd ervan om inboxen vol te spammen
-        3. ik ben een verward persoon en moet mijn verhaal kwijt
-      </form>
-      -->
+      <h1>About</h1>
+      <section class="sectie-flexy">
+        <article class="max2columns">
+          <img class="profielfoto" src="img/tessa-schijff2.jpg" alt="Tessa Schijff">
+          <h2>Tessa Schijff</h2>
+          <p><em>Student CMD</em></p>
+          <p><b>Leeftijd:</b>28 jaar</p>
+          <p><b>Woonplaats:</b>Almere</p>
+        </article>
+        <article class="max2columns">
+          <fieldset>
+            <legend>Contact</legend>
+            <form action="mailto:tessa@schijff.nl" method="post" enctype="text/plain">
+              <p>Naam:<input type="text" name="name" /></p>
+              <p>Email:<input type="email" name="email" /></p>
+              <p>Bericht:<textarea rows="10" cols="30" name="message"></textarea></p>
+            <input type="submit" value="Send" id="verstuur" />
+          </fieldset>
+        </article>
+      </section>
 
     </main>
   </body>

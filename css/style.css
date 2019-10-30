@@ -23,7 +23,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: rgba(0, 96, 92,1);
+  background-color: rgba(0, 96, 92, 1);
 }
 
 /* ------- ALGEMENE CSS ------- */
@@ -72,23 +72,29 @@ h1 {
 }
 
 h2 {
-  color: rgba(0, 96, 92,1);
+  color: rgba(0, 96, 92, 1);
   font-size: 14pt;
 }
 
 h3 {
-  color: rgba(0, 96, 92,1);
+  color: rgba(0, 96, 92, 1);
   font-size: 12pt;
 }
 
 h4 {
-  color: rgba(0, 96, 92,1);
+  color: rgba(0, 96, 92, 1);
   font-size: 11pt;
 }
 
 p, article li {
   color: black;
   font-size: 11pt;
+}
+
+.gemaakt-op, .postingdatum {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: end;
+  font-style: italic;
 }
 
 em, strong {
@@ -118,7 +124,7 @@ article a:hover {
 }
 
 article a:active {
-  background-color: rgba(0, 96, 92,1);
+  background-color: rgba(0, 96, 92, 1);
   text-decoration: none;
   font-style: bold;
 }
@@ -145,8 +151,32 @@ img .ditjesdatjes {
   color: rgba(225, 170, 35, 1);
 }
 
-/* logo cards  */
+/* in de artikelen */
+.de-opdracht {
+  border: rgba(225, 170, 35, 1);
+  border-width: 0.3em;
+  border-style: dashed;
+}
+
+.meer-info {
+  max-width: 25%;
+}
+
 figure {
+  max-width: 20%;
+  background-color: rgba(225, 170, 35, 1);
+  padding: 0.3em;
+}
+
+figcaption {
+  color: black;
+  font-size: 11pt;
+}
+
+
+
+/* logo cards  */
+.logo1 {
   margin: 20px, 20px;
   padding: 2px 16px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -157,13 +187,13 @@ figure {
   overflow: hidden;
 }
 
-figure:hover {
+.logo1:hover {
   box-shadow: 0 12px 16px 0 #00605C;
   max-height: none;
   transition: 2s;
 }
 
-figcaption {
+.logo2 {
   display: bottom;
 }
 
@@ -196,7 +226,7 @@ section > ul {
 
 section > ul li::before {
   content: "\2665";
-  color: rgba(0, 96, 92,1);
+  color: rgba(0, 96, 92, 1);
   font-weight: bold;
   font-size: 14pt;
   display: inline-block;
@@ -205,6 +235,20 @@ section > ul li::before {
 }
 
 /* ---------- About ---------- */
+.profielfoto {
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.max2columns {
+  max-width: 40%;
+}
+
+/*formulier*/
+fieldset {
+  max-width: 100%
+}
 
 form {
   margin-top: 30px;
@@ -246,5 +290,8 @@ input, textarea {
   .introvansub {
     padding: 0.8em;
     min-width: 15em;
+  }
+  .max2columns {
+    max-width: 100%;
   }
 }
